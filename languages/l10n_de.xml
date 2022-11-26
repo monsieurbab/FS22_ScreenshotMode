@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>Monsieur Bab</translationContributors>
+    <texts>
+        <text name="input_OPEN_SCREENSHOT_MODE_OVERLAY" text="Screenshot-Modus öffnen" />
+        <text name="controlsInfo" text="Steuerung:
+Bewegung: W-A-S-D (Qwerty, Qwertz) / Z-Q-S-D (Azerty)
+Fliegen: Q-E (Qwerty, Qwertz) / A-E (Azerty)
+Drehen: Z-C (Qwerty) / W-C (Azerty) / Y-C (Qwertz) / Linker Mausklick
++/- FOV: Mausrad
+FOV zurücksetzen: Mausrad-Klick
+Screenshot machen: F12 oder Enter" />
+        <text name="colorGradingPreset" text="Shader" />
+        <text name="seasonPeriod" text="Saisonzeitraum" />
+        <text name="weather" text="Wetter" />
+        <text name="dayTime" text="Tageszeit" />
+        <text name="earlySpring" text="Früher Frühling" />
+        <text name="midSpring" text="Mitte Frühling" />
+        <text name="lateSpring" text="Später Frühling" />
+        <text name="earlySummer" text="Frühsommer" />
+        <text name="midSummer" text="Hochsommer" />
+        <text name="lateSummer" text="Spätsommer" />
+        <text name="earlyAutumn" text="Frühherbst" />
+        <text name="midAutumn" text="Mitte Herbst" />
+        <text name="lateAutumn" text="Spätherbst" />
+        <text name="earlyWinter" text="Früher Winter" />
+        <text name="midWinter" text="Mitte Winter" />
+        <text name="lateWinter" text="Spätwinter" />
+        <text name="sun" text="Sonne" />
+        <text name="rain" text="Regen" />
+        <text name="cloudy" text="Wolkig" />
+    </texts>
+</l10n>

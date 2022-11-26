@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>Monsieur Bab</translationContributors>
+    <texts>
+        <text name="input_OPEN_SCREENSHOT_MODE_OVERLAY" text="Open Screenshot Mode" />
+        <text name="controlsInfo" text="Controls:
+Move: W-A-S-D (Qwerty, Qwertz) / Z-Q-S-D (Azerty)
+Fly: Q-E (Qwerty, Qwertz) / A-E (Azerty)
+Rotate: Z-C (Qwerty) / W-C (Azerty) / Y-C (Qwertz) / Left Mouse click
++/- FOV: Mouse Wheel
+Reset FOV: Mouse Wheel click
+Take Screenshot: F12 or Enter" />
+        <text name="colorGradingPreset" text="Shader" />
+        <text name="seasonPeriod" text="Season Period" />
+        <text name="weather" text="Weather" />
+        <text name="dayTime" text="Day Time" />
+        <text name="earlySpring" text="Early Spring" />
+        <text name="midSpring" text="Mid Spring" />
+        <text name="lateSpring" text="Late Spring" />
+        <text name="earlySummer" text="Early Summer" />
+        <text name="midSummer" text="Mid Summer" />
+        <text name="lateSummer" text="Late Summer" />
+        <text name="earlyAutumn" text="Early Autumn" />
+        <text name="midAutumn" text="Mid Autumn" />
+        <text name="lateAutumn" text="Late Autumn" />
+        <text name="earlyWinter" text="Early Winter" />
+        <text name="midWinter" text="Mid Winter" />
+        <text name="lateWinter" text="Late Winter" />
+        <text name="sun" text="Sun" />
+        <text name="rain" text="Rain" />
+        <text name="cloudy" text="Cloudy" />
+    </texts>
+</l10n>

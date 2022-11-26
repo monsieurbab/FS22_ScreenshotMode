@@ -1,0 +1,113 @@
+<?xml version="1.0" standalone="no"?>
+    <modDesc descVersion="65">
+    <author>Monsieur Bab</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Screenshot Mode</en>
+        <fr>Mode Screenshot</fr>
+        <de>Screenshot-Modus</de>
+    </title>
+    <description>
+        <en>
+<![CDATA[
+Enhance your screenshots by modifying the environment (time / weather / season), the game shader and easily controlling the camera with this mod!
+
+Feature overview:
+- Move the camera freely
+- Rotate the camera
+- Change the FOV
+- Select the shader (Color Grading) via several presets
+- Select the season period
+- Select weather
+- Select time of day
+
+Notes:
+- The mod does not modify the environment (time / season) of your savegame (only the weather forecast is not restored but I did not find how to avoid this)
+- The mod is currently not compatible in multiplayer
+
+This mod is inspired by the Euro Truck Simulator 2 Photo Mode and the controls are similar.
+
+Controls:
+- Open Screenshot Mode: Alt + j
+- Move: W-A-S-D (Qwerty, Qwertz) / Z-Q-S-D (Azerty)
+- Fly: Q-E (Qwerty, Qwertz) / A-E (Azerty)
+- Rotate: Z-C (Qwerty) / W-C (Azerty) / Y-C (Qwertz) / Left mouse click
+- +/- FOV: Mouse Wheel
+- Reset FOV: Mouse wheel click
+]]>
+        </en>
+        <fr>
+<![CDATA[
+Sublimez vos screenshots en modifiant l'environnement (heure / météo / saison), le shader du jeu et en contrôlant facilement la caméra avec ce mod !
+
+Aperçu des fonctionnalités :
+- Déplacer librement la caméra
+- Pivoter la caméra
+- Changer le FOV
+- Sélectionner le shader (Color Grading) via plusieurs presets
+- Sélectionner la période de l'année (saison)
+- Sélectionner la météo
+- Sélectionner l'heure du jour
+
+Notes :
+- Le mod ne modifie pas l'environnement (heure / saison) de votre sauvegarde (seules les prévisions météo ne sont pas restaurées mais je n'ai pas trouvé comment éviter ça)
+- Le mod n'est pour le moment pas compatible en multijoueurs
+
+Ce mod est inspiré du Mode Photo d'Euro Truck Simulator 2 et les contrôles sont similaires.
+
+Contrôles:
+- Ouvrir le Mode Screenshot : Alt + j
+- Se déplacer : W-A-S-D (Qwerty, Qwertz) / Z-Q-S-D (Azerty)
+- Voler : Q-E (Qwerty, Qwertz) / A-E (Azerty)
+- Pivoter : Z-C (Qwerty) / W-C (Azerty) / Y-C (Qwertz) / Clic gauche de la souris
+- +/- FOV : Molette de la souris 
+- Réinitialiser le FOV : Clic molette de la souris
+]]>
+        </fr>
+        <de>
+<![CDATA[
+Verbessern Sie Ihre Screenshots, indem Sie die Umgebung (Zeit / Wetter / Jahreszeit), den Spiel-Shader und die einfache Steuerung der Kamera mit diesem Mod ändern!
+
+Funktionsübersicht:
+- Kamera frei bewegen
+- Kamera drehen
+- Sichtfeld ändern
+- Wähle den Shader (Color Grading) über mehrere Voreinstellungen aus
+- Saisonzeitraum auswählbar
+- Wetterauswahl
+- Tageszeitauswahl
+
+Anmerkungen:
+- Der Mod ändert nicht die Umgebung (Zeit / Saison) deines Savegames (nur die Wettervorhersage wird nicht wiederhergestellt, aber ich habe keine Möglichkeit gefunden, dies zu vermeiden)
+- Der Mod ist derzeit nicht Multiplayer kompatibel
+
+Dieser Mod ist vom Euro Truck Simulator 2 Photo Mode inspiriert und die Steuerung ist ähnlich.
+
+Steuerung:
+- Screenshot-Modus öffnen: Alt + j
+- Bewegung: W-A-S-D (Qwerty, Qwertz) / Z-Q-S-D (Azerty)
+- Fliegen: Q-E (Qwerty, Qwertz) / A-E (Azerty)
+- Drehen: Z-C (Qwerty) / W-C (Azerty) / Y-C (Qwertz) / Linker Mausklick
+- +/- FOV: Mausrad
+- FOV zurücksetzen: Mausrad-Klick
+]]>
+        </de>
+    </description>
+    <iconFilename>modIcon.dds</iconFilename>
+    <multiplayer supported="false" />
+    <extraSourceFiles>
+        <sourceFile filename="lib/LogHelper.lua" />
+        <sourceFile filename="lib/ModHelper.lua" />
+        <sourceFile filename="gui/ScreenshotModeOverlay.lua" />
+        <sourceFile filename="ScreenshotMode.lua" />
+    </extraSourceFiles>
+    <l10n filenamePrefix="languages/l10n"/>
+    <inputBinding>
+        <actionBinding action="OPEN_SCREENSHOT_MODE_OVERLAY">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_j" />
+        </actionBinding>
+    </inputBinding>
+    <actions>
+        <action name="OPEN_SCREENSHOT_MODE_OVERLAY" />
+    </actions>
+</modDesc>

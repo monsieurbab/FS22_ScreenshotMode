@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>Monsieur Bab</translationContributors>
+    <texts>
+        <text name="input_OPEN_SCREENSHOT_MODE_OVERLAY" text="Ouvrir le Mode Screenshot" />
+        <text name="controlsInfo" text="Contrôles:
+Se déplacer : W-A-S-D (Qwerty, Qwertz) / Z-Q-S-D (Azerty)
+Voler : Q-E (Qwerty, Qwertz) / A-E (Azerty)
+Pivoter : Z-C (Qwerty) / W-C (Azerty) / Y-C (Qwertz) / Clic gauche de la souris
++/- FOV : Molette de la souris 
+Réinitialiser le FOV : Clic molette de la souris
+Prendre un screenshot: F12 ou Entrée" />
+        <text name="colorGradingPreset" text="Shader" />
+        <text name="seasonPeriod" text="Période de la saison" />
+        <text name="weather" text="Météo" />
+        <text name="dayTime" text="Heure du jour" />
+        <text name="earlySpring" text="Début du printemps" />
+        <text name="midSpring" text="Mi-printemps " />
+        <text name="lateSpring" text="Fin du printemps " />
+        <text name="earlySummer" text="Début de l'été" />
+        <text name="midSummer" text="Mi-été" />
+        <text name="lateSummer" text="Fin de l'été" />
+        <text name="earlyAutumn" text="Début de l'automne" />
+        <text name="midAutumn" text="Mi-automne" />
+        <text name="lateAutumn" text="Fin de l'automne" />
+        <text name="earlyWinter" text="Début de l'hiver" />
+        <text name="midWinter" text="Mi-hiver" />
+        <text name="lateWinter" text="Fin d'hiver" />
+        <text name="sun" text="Ensoleillé" />
+        <text name="rain" text="Pluvieux" />
+        <text name="cloudy" text="Nuageux" />
+    </texts>
+</l10n>

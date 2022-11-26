@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="text" profile="textDefault" text="$l10n_controlsInfo" textAutoWidth="true" position="100px 660px" />
+
+    <GuiElement type="multiTextOption" profile="multiTextOption" id="colorGradingPreset" onClick="onColorGradingPresetChanged" size="350px 50px" position="100px 500px" handleFocus="false">
+        <GuiElement type="button" profile="multiTextOptionLeft" size="50px 50px" />
+        <GuiElement type="button" profile="multiTextOptionRight" size="50px 50px" />
+        <GuiElement type="text"   profile="multiTextOptionText" size="250px 50px" />
+        <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_colorGradingPreset" />
+        <GuiElement type="bitmap" profile="multiTextOptionBg" size="250px 50px" />
+    </GuiElement>
+
+    <GuiElement type="multiTextOption" profile="multiTextOption" id="seasonPeriod" onClick="onSeasonPeriodChanged" size="350px 50px" position="100px 400px" handleFocus="false">
+        <GuiElement type="button" profile="multiTextOptionLeft" size="50px 50px" />
+        <GuiElement type="button" profile="multiTextOptionRight" size="50px 50px" />
+        <GuiElement type="text"   profile="multiTextOptionText" size="250px 50px" />
+        <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_seasonPeriod" />
+        <GuiElement type="bitmap" profile="multiTextOptionBg" size="250px 50px" />
+    </GuiElement>
+
+    <GuiElement type="multiTextOption" profile="multiTextOption" id="weather" onClick="onWeatherChanged" size="350px 50px" position="100px 300px" handleFocus="false">
+        <GuiElement type="button" profile="multiTextOptionLeft" size="50px 50px" />
+        <GuiElement type="button" profile="multiTextOptionRight" size="50px 50px" />
+        <GuiElement type="text"   profile="multiTextOptionText" size="250px 50px" />
+        <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_weather" />
+        <GuiElement type="bitmap" profile="multiTextOptionBg" size="250px 50px" />
+    </GuiElement>
+
+    <GuiElement type="multiTextOption" profile="multiTextOption" id="dayTime" onClick="onDayTimeChanged" size="350px 50px" position="100px 200px" handleFocus="false">
+        <GuiElement type="button" profile="multiTextOptionLeft" size="50px 50px" />
+        <GuiElement type="button" profile="multiTextOptionRight" size="50px 50px" />
+        <GuiElement type="text"   profile="multiTextOptionText" size="250px 50px" />
+        <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_dayTime" />
+        <GuiElement type="bitmap" profile="multiTextOptionBg" size="250px 50px" />
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="buttonBoxDocked" position="100px 100px" id="buttonsPC">
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+    </GuiElement>
+</GUI>
