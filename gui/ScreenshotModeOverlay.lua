@@ -263,7 +263,7 @@ function ScreenshotModeOverlay:update(dt)
     self:translateCam()
     self:rotateCam()
 
-    if (Input.isKeyPressed(Input.KEY_return) or Input.isKeyPressed(Input.KEY_f12)) and self.captureCooldown == 0 then
+    if (Input.isKeyPressed(Input.KEY_return) or Input.isKeyPressed(Input.KEY_f12) or Input.isKeyPressed(Input.KEY_print)) and self.captureCooldown == 0 then
         self.captureCooldown = 10
 
         if self.getIsVisible(self) then
