@@ -294,6 +294,12 @@ function ScreenshotModeOverlay:update(dt)
         self.setVisible(self, true)
         self.setAlpha(self, 1)
     end
+
+    if self.captureCooldown > 0 then
+        self.draw = ScreenshotModeOverlay:superClass().draw
+    elseif self.captureCooldown == 0 and self.mouseDragActive then
+        self.draw = self.drawFocusOverlay
+    end
 end
 
 function ScreenshotModeOverlay:translateCam()
