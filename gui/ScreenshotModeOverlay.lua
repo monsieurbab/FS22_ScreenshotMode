@@ -121,6 +121,9 @@ function ScreenshotModeOverlay:onOpen()
     setWorldRotation(self.camera, getWorldRotation(self.previousCamera))
     setCamera(cam)
 
+    -- Reset draw method
+    self.draw = ScreenshotModeOverlay:superClass().draw
+
     -- Camera Rotation by mouse click vars
     self.mouseDragActive = false
     self.lastMousePosX = 0
